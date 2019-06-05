@@ -1,0 +1,31 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.cl_white {
+    color: white;
+}
+
+img {
+    width: 300px;
+    transition: .5s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col-text {
+    -webkit-column-count: 3;
+}
+.mar-bot {
+    margin-bottom: 40px;
+}
